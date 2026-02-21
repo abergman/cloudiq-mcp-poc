@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "crayon-cloudiq": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "cwd": "<absolute-path-to-this-repo>",
+      "env": {
+        "CRAYON_CLIENT_ID": "<your-client-id>",
+        "CRAYON_CLIENT_SECRET": "<your-client-secret>",
+        "CRAYON_USERNAME": "<your-crayon-username>",
+        "CRAYON_PASSWORD": "<your-crayon-password>"
+      }
+    }
+  }
+}
